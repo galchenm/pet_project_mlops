@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/b7716a50cb684aeea6f83cc9618acd10/artifacts
+end_time: 1751490569513
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: b7716a50cb684aeea6f83cc9618acd10
+run_name: unique-squirrel-804
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490569140
+status: 3
+tags: []
+user_id: codespace

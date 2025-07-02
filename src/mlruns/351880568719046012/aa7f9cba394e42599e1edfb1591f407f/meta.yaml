@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/aa7f9cba394e42599e1edfb1591f407f/artifacts
+end_time: 1751490827310
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: aa7f9cba394e42599e1edfb1591f407f
+run_name: lyrical-vole-444
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490826953
+status: 3
+tags: []
+user_id: codespace

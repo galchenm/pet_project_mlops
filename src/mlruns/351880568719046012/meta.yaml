@@ -1,0 +1,6 @@
+artifact_location: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012
+creation_time: 1751490086440
+experiment_id: '351880568719046012'
+last_update_time: 1751490086440
+lifecycle_stage: active
+name: stroke-prediction

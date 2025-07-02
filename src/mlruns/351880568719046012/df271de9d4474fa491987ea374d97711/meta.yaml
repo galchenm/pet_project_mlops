@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/df271de9d4474fa491987ea374d97711/artifacts
+end_time: 1751490830353
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: df271de9d4474fa491987ea374d97711
+run_name: upbeat-shrike-938
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490830086
+status: 3
+tags: []
+user_id: codespace

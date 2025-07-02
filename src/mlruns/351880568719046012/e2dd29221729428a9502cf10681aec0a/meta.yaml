@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/e2dd29221729428a9502cf10681aec0a/artifacts
+end_time: 1751490568760
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: e2dd29221729428a9502cf10681aec0a
+run_name: nimble-gnat-481
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490568267
+status: 3
+tags: []
+user_id: codespace

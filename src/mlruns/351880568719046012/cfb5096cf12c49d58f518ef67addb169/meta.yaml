@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/cfb5096cf12c49d58f518ef67addb169/artifacts
+end_time: 1751490827909
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: cfb5096cf12c49d58f518ef67addb169
+run_name: carefree-boar-764
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490827535
+status: 3
+tags: []
+user_id: codespace

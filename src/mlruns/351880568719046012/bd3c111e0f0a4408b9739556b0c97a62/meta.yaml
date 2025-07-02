@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/bd3c111e0f0a4408b9739556b0c97a62/artifacts
+end_time: 1751490675160
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: bd3c111e0f0a4408b9739556b0c97a62
+run_name: fearless-chimp-375
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490672336
+status: 3
+tags: []
+user_id: codespace

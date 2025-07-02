@@ -1,0 +1,10 @@
+digest: bdb1ee66
+name: dataset
+profile: '{"num_rows": 5110, "num_elements": 25550}'
+schema: '{"mlflow_colspec": [{"type": "string", "name": "gender", "required": true},
+  {"type": "string", "name": "ever_married", "required": true}, {"type": "string",
+  "name": "work_type", "required": true}, {"type": "string", "name": "Residence_type",
+  "required": true}, {"type": "string", "name": "smoking_status", "required": true}]}'
+source: '{"tags": {"mlflow.user": "codespace", "mlflow.source.name": "train_model.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "13a13d19b63900f0f93fa1f6d2a9f398d4c73303"}}'
+source_type: code

@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/fde1ea7fda424be08877a36d2dcdefe9/artifacts
+end_time: 1751490566363
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: fde1ea7fda424be08877a36d2dcdefe9
+run_name: rogue-goose-589
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490565940
+status: 3
+tags: []
+user_id: codespace

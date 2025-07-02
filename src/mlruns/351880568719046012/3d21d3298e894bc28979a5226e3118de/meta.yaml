@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/3d21d3298e894bc28979a5226e3118de/artifacts
+end_time: 1751490565458
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 3d21d3298e894bc28979a5226e3118de
+run_name: persistent-crane-900
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490564933
+status: 3
+tags: []
+user_id: codespace

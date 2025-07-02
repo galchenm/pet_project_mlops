@@ -1,0 +1,10 @@
+artifact_location: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/models/m-c20dbbd90ce246c19192b85b5dacab64/artifacts
+creation_timestamp: 1751490308151
+experiment_id: '351880568719046012'
+last_updated_timestamp: 1751490310489
+model_id: m-c20dbbd90ce246c19192b85b5dacab64
+model_type: null
+name: best_estimator
+source_run_id: 3084511e47bb4cb69d06fe56ad0628de
+status: 2
+status_message: null

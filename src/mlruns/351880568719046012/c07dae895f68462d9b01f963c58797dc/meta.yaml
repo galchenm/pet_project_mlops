@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/c07dae895f68462d9b01f963c58797dc/artifacts
+end_time: 1751490089511
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: c07dae895f68462d9b01f963c58797dc
+run_name: funny-shrike-242
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490086487
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/b008943e83be499f97bd58a3fedb60f8/artifacts
+end_time: 1751490832041
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: b008943e83be499f97bd58a3fedb60f8
+run_name: bustling-seal-868
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490831810
+status: 3
+tags: []
+user_id: codespace

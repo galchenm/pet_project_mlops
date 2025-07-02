@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/09fadeb4a3464165b15267f7e5471b34/artifacts
+end_time: 1751490473400
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 09fadeb4a3464165b15267f7e5471b34
+run_name: zealous-cub-91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490472109
+status: 4
+tags: []
+user_id: codespace

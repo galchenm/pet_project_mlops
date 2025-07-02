@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/30e6854faf8f46e98d2ec636c53fd669/artifacts
+end_time: 1751490569137
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 30e6854faf8f46e98d2ec636c53fd669
+run_name: crawling-skink-587
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490568766
+status: 3
+tags: []
+user_id: codespace

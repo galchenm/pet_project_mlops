@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/a40149d67a75484f956618a7f587f186/artifacts
+end_time: 1751490565937
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: a40149d67a75484f956618a7f587f186
+run_name: youthful-pig-474
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490565462
+status: 3
+tags: []
+user_id: codespace

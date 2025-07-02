@@ -1,1 +1,1 @@
-# pet_project_mlops
+# Stroke Prediction ML Project

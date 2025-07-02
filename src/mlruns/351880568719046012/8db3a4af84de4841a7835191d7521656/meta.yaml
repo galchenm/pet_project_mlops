@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/8db3a4af84de4841a7835191d7521656/artifacts
+end_time: 1751490564930
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 8db3a4af84de4841a7835191d7521656
+run_name: beautiful-stoat-990
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490564530
+status: 3
+tags: []
+user_id: codespace

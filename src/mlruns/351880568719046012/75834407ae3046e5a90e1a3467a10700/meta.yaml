@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/75834407ae3046e5a90e1a3467a10700/artifacts
+end_time: 1751490564527
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 75834407ae3046e5a90e1a3467a10700
+run_name: rogue-squirrel-958
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490563867
+status: 3
+tags: []
+user_id: codespace

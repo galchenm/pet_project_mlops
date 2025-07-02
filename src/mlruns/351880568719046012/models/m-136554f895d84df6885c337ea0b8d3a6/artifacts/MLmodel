@@ -1,0 +1,24 @@
+artifact_path: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/models/m-136554f895d84df6885c337ea0b8d3a6/artifacts
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+is_signature_from_type_hint: false
+mlflow_version: 3.1.1
+model_id: m-136554f895d84df6885c337ea0b8d3a6
+model_size_bytes: 1049
+model_uuid: m-136554f895d84df6885c337ea0b8d3a6
+prompts: null
+run_id: 3084511e47bb4cb69d06fe56ad0628de
+signature:
+  inputs: '[{"type": "string", "name": "gender", "required": true}, {"type": "string",
+    "name": "ever_married", "required": true}, {"type": "string", "name": "work_type",
+    "required": true}, {"type": "string", "name": "Residence_type", "required": true},
+    {"type": "string", "name": "smoking_status", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    16]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-07-02 21:04:54.966913'

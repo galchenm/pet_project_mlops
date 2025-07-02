@@ -1,0 +1,9 @@
+digest: c8d1eab7
+name: dataset
+profile: '{"num_rows": 5110, "num_elements": 15330}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "age", "required": true},
+  {"type": "double", "name": "avg_glucose_level", "required": true}, {"type": "double",
+  "name": "bmi", "required": false}]}'
+source: '{"tags": {"mlflow.user": "codespace", "mlflow.source.name": "train_model.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "13a13d19b63900f0f93fa1f6d2a9f398d4c73303"}}'
+source_type: code

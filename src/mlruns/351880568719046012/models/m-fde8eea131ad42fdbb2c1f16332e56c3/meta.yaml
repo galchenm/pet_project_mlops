@@ -1,0 +1,10 @@
+artifact_location: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/models/m-fde8eea131ad42fdbb2c1f16332e56c3/artifacts
+creation_timestamp: 1751490834677
+experiment_id: '351880568719046012'
+last_updated_timestamp: 1751490837129
+model_id: m-fde8eea131ad42fdbb2c1f16332e56c3
+model_type: null
+name: model
+source_run_id: 99e6bd81c2ef4855a97c274c331754e3
+status: 2
+status_message: null

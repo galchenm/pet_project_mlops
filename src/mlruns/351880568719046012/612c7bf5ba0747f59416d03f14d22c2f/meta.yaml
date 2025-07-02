@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/612c7bf5ba0747f59416d03f14d22c2f/artifacts
+end_time: 1751490570070
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 612c7bf5ba0747f59416d03f14d22c2f
+run_name: amusing-trout-565
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490569516
+status: 3
+tags: []
+user_id: codespace

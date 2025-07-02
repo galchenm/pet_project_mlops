@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/729b4316d261415d9cfc20de386c7f86/artifacts
+end_time: 1751490828694
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 729b4316d261415d9cfc20de386c7f86
+run_name: clean-cow-617
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490827935
+status: 3
+tags: []
+user_id: codespace

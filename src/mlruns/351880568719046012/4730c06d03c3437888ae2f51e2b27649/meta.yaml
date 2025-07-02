@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/4730c06d03c3437888ae2f51e2b27649/artifacts
+end_time: 1751490627623
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 4730c06d03c3437888ae2f51e2b27649
+run_name: honorable-owl-888
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490624639
+status: 4
+tags: []
+user_id: codespace

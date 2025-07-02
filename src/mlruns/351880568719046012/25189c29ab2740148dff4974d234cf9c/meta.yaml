@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/25189c29ab2740148dff4974d234cf9c/artifacts
+end_time: 1751490571866
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 25189c29ab2740148dff4974d234cf9c
+run_name: legendary-dog-902
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490571609
+status: 3
+tags: []
+user_id: codespace

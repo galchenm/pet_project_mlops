@@ -1,0 +1,28 @@
+artifact_path: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/models/m-d39504d84b314cf1a1ba3c6225fc2f33/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+is_signature_from_type_hint: false
+mlflow_version: 3.1.1
+model_id: m-d39504d84b314cf1a1ba3c6225fc2f33
+model_size_bytes: 675569
+model_uuid: m-d39504d84b314cf1a1ba3c6225fc2f33
+prompts: null
+run_id: 3084511e47bb4cb69d06fe56ad0628de
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 19]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-07-02 21:05:04.710238'

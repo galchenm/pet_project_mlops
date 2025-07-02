@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/c1cba3b60deb4631be25b93f301809ae/artifacts
+end_time: 1751490567915
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: c1cba3b60deb4631be25b93f301809ae
+run_name: polite-owl-290
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490567343
+status: 3
+tags: []
+user_id: codespace

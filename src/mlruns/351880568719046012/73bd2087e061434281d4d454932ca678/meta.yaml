@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/73bd2087e061434281d4d454932ca678/artifacts
+end_time: 1751490566731
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 73bd2087e061434281d4d454932ca678
+run_name: bustling-fawn-473
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490566366
+status: 3
+tags: []
+user_id: codespace

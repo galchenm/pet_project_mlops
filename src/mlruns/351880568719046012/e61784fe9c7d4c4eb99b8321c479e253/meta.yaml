@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/e61784fe9c7d4c4eb99b8321c479e253/artifacts
+end_time: 1751490826927
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: e61784fe9c7d4c4eb99b8321c479e253
+run_name: hilarious-rat-497
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490826175
+status: 3
+tags: []
+user_id: codespace

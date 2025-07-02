@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/e0af99ccc41b4546b21aada3096ad021/artifacts
+end_time: 1751490833335
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: e0af99ccc41b4546b21aada3096ad021
+run_name: whimsical-bass-243
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490832964
+status: 3
+tags: []
+user_id: codespace

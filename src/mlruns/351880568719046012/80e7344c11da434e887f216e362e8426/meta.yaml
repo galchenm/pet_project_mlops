@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/80e7344c11da434e887f216e362e8426/artifacts
+end_time: 1751490832893
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 80e7344c11da434e887f216e362e8426
+run_name: treasured-lynx-887
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490832428
+status: 3
+tags: []
+user_id: codespace

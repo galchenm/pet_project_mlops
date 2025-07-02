@@ -1,0 +1,23 @@
+artifact_path: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/models/m-26b913d4dd854d0db89eb60a009f77ec/artifacts
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+is_signature_from_type_hint: false
+mlflow_version: 3.1.1
+model_id: m-26b913d4dd854d0db89eb60a009f77ec
+model_size_bytes: 1017
+model_uuid: m-26b913d4dd854d0db89eb60a009f77ec
+prompts: null
+run_id: 3084511e47bb4cb69d06fe56ad0628de
+signature:
+  inputs: '[{"type": "double", "name": "age", "required": true}, {"type": "double",
+    "name": "avg_glucose_level", "required": true}, {"type": "double", "name": "bmi",
+    "required": false}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    3]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-07-02 21:04:51.928696'

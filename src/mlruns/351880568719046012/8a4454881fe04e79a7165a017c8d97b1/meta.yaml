@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/8a4454881fe04e79a7165a017c8d97b1/artifacts
+end_time: 1751490829556
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 8a4454881fe04e79a7165a017c8d97b1
+run_name: sneaky-jay-610
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751490828722
+status: 3
+tags: []
+user_id: codespace
