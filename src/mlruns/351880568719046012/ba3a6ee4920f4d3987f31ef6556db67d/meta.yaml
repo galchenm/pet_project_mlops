@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/ba3a6ee4920f4d3987f31ef6556db67d/artifacts
+end_time: 1752352902139
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: ba3a6ee4920f4d3987f31ef6556db67d
+run_name: luminous-snail-286
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352901809
+status: 3
+tags: []
+user_id: codespace

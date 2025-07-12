@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/2d95b0f6d55243e0bbc9dc79add5bf82/artifacts
+end_time: 1752352902606
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 2d95b0f6d55243e0bbc9dc79add5bf82
+run_name: gentle-mule-729
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352902176
+status: 3
+tags: []
+user_id: codespace

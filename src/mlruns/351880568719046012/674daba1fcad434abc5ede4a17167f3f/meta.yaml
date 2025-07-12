@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/674daba1fcad434abc5ede4a17167f3f/artifacts
+end_time: 1752352827045
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 674daba1fcad434abc5ede4a17167f3f
+run_name: able-koi-56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352826696
+status: 3
+tags: []
+user_id: codespace

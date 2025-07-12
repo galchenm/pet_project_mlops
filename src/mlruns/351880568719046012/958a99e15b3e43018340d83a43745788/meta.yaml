@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/958a99e15b3e43018340d83a43745788/artifacts
+end_time: 1752352909321
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 958a99e15b3e43018340d83a43745788
+run_name: best-model-training
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352905913
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/7d21b3aa59ab47b7acbc057304b43162/artifacts
+end_time: 1752352901154
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 7d21b3aa59ab47b7acbc057304b43162
+run_name: lyrical-finch-829
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352900816
+status: 3
+tags: []
+user_id: codespace

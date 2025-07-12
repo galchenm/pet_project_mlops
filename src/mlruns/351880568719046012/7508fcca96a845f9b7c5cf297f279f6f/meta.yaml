@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/7508fcca96a845f9b7c5cf297f279f6f/artifacts
+end_time: 1752352823562
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 7508fcca96a845f9b7c5cf297f279f6f
+run_name: powerful-robin-387
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352822852
+status: 3
+tags: []
+user_id: codespace

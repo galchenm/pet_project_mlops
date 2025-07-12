@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/3fb5332491bb4d8d96c0b2a936bd6486/artifacts
+end_time: 1752352822825
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 3fb5332491bb4d8d96c0b2a936bd6486
+run_name: puzzled-frog-566
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352822131
+status: 3
+tags: []
+user_id: codespace

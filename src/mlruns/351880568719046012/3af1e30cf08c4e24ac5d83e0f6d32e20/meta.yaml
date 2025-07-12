@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/3af1e30cf08c4e24ac5d83e0f6d32e20/artifacts
+end_time: 1752352898884
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 3af1e30cf08c4e24ac5d83e0f6d32e20
+run_name: awesome-bee-246
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352898594
+status: 3
+tags: []
+user_id: codespace

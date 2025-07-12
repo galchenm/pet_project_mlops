@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/e770d0e96e624b2c84481f4df6442775/artifacts
+end_time: 1752352820556
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: e770d0e96e624b2c84481f4df6442775
+run_name: classy-fox-815
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352820408
+status: 3
+tags: []
+user_id: codespace

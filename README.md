@@ -110,6 +110,145 @@ For more details, see the [Prefect Documentation](https://docs.prefect.io/).
 
 ---
 
+## 🚀 Model Serving with FastAPI
+
+We serve the trained stroke prediction model via a FastAPI application that exposes a REST endpoint for inference.
+
+### How to run the server
+
+1. Make sure the trained model and preprocessor files are saved in the `models/` directory as:
+
+* `models/model.joblib`
+* `models/preprocessor.pkl`
+
+2. Run the FastAPI server:
+
+```bash
+uvicorn src.serve_model:app --reload
+```
+
+The server will start on:
+
+```
+http://127.0.0.1:8000
+```
+
+### API Endpoint
+
+* **POST** `/predict`
+
+  Accepts patient data and returns stroke risk probability and binary prediction.
+
+### Request Body JSON schema
+
+```json
+{
+  "age": 65,
+  "avg_glucose_level": 160,
+  "bmi": 26,
+  "gender": "Female",
+  "ever_married": "Yes",
+  "work_type": "Private",
+  "Residence_type": "Urban",
+  "smoking_status": "never smoked"
+}
+```
+
+### Example curl request
+
+```bash
+curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json" -d '{
+  "age": 65,
+  "avg_glucose_level": 160,
+  "bmi": 26,
+  "gender": "Female",
+  "ever_married": "Yes",
+  "work_type": "Private",
+  "Residence_type": "Urban",
+  "smoking_status": "never smoked"
+}'
+```
+
+### Example response
+
+```json
+{
+  "stroke_probability":0.05808,
+  "stroke_prediction":0
+}
+```
+
+* `stroke_probability`: predicted probability of stroke occurrence
+* `stroke_prediction`: binary prediction (1 = stroke predicted, 0 = no stroke)
+
+---
+## Docker Deployment
+
+### What has been done
+
+* A Docker image was created to containerize the FastAPI model serving application.
+* The image includes the trained model (`model.joblib`) and the preprocessor (`preprocessor.pkl`), along with all required dependencies.
+* The FastAPI app listens on port 8000 and exposes a `/predict` endpoint to receive patient data and return stroke risk predictions.
+
+---
+
+### How to run the Docker container
+
+1. **Build the Docker image**
+   Run this command in the project root (where the `Dockerfile` is located):
+
+   ```bash
+   docker build -t stroke-predictor:latest .
+   ```
+
+   This command builds a Docker image named `stroke-predictor`.
+
+2. **Run the Docker container**
+
+   ```bash
+   docker run -p 8000:8000 stroke-predictor:latest
+   ```
+
+   This starts the container and maps port 8000 inside the container to port 8000 on your local machine.
+
+3. **Verify the API is running**
+
+   Open your browser or use a tool like `curl` to access the API at:
+
+   ```
+   http://localhost:8000/docs
+   ```
+
+   This will show the interactive FastAPI Swagger UI.
+
+---
+
+### How to test the API with `curl`
+
+Send a POST request with sample patient data:
+
+```bash
+curl -X POST "http://localhost:8000/predict" -H "Content-Type: application/json" -d '{
+  "age": 67,
+  "avg_glucose_level": 105.92,
+  "bmi": 36.6,
+  "gender": "Female",
+  "ever_married": "Yes",
+  "work_type": "Private",
+  "Residence_type": "Urban",
+  "smoking_status": "formerly smoked"
+}'
+```
+
+Expected response:
+
+```json
+{
+  "stroke_probability": 0.06944068350051612,
+  "stroke_prediction": 0
+}
+```
+---
 ## 📁 Project Structure
 
 ```
@@ -122,7 +261,10 @@ For more details, see the [Prefect Documentation](https://docs.prefect.io/).
 │   ├── data_prep.py       # Data loading and preprocessing
 │   └── train.py           # Training, tuning, MLflow logging
 │   └── pipeline.py        # Workflow Orchestration with Prefect
+│   └── serve_model.py     # Model Serving with FastAPI
 ├── README.md
+├── Dockerfile
+├── requirements.txt
 ```
 
 ---

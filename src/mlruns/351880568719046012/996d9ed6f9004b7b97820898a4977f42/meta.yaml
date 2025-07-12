@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/996d9ed6f9004b7b97820898a4977f42/artifacts
+end_time: 1752352828415
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 996d9ed6f9004b7b97820898a4977f42
+run_name: salty-duck-540
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352828106
+status: 3
+tags: []
+user_id: codespace

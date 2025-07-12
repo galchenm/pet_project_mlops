@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/0a40eef539a04d2182fd6b0f85d30fbf/artifacts
+end_time: 1752352897482
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 0a40eef539a04d2182fd6b0f85d30fbf
+run_name: nimble-doe-195
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352896940
+status: 3
+tags: []
+user_id: codespace

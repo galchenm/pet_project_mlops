@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/177cef0abc1647fc865a303b87ff965d/artifacts
+end_time: 1752352825488
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 177cef0abc1647fc865a303b87ff965d
+run_name: blushing-bat-708
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352825078
+status: 3
+tags: []
+user_id: codespace

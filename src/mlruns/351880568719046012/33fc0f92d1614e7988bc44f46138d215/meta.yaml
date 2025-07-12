@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/33fc0f92d1614e7988bc44f46138d215/artifacts
+end_time: 1752352896891
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 33fc0f92d1614e7988bc44f46138d215
+run_name: redolent-croc-764
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352896255
+status: 3
+tags: []
+user_id: codespace

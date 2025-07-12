@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/422c8ebf4cc34665a539fe2de3a6ce20/artifacts
+end_time: 1752352901769
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 422c8ebf4cc34665a539fe2de3a6ce20
+run_name: likeable-elk-911
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352901450
+status: 3
+tags: []
+user_id: codespace

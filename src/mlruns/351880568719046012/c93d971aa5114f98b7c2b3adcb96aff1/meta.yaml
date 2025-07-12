@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/c93d971aa5114f98b7c2b3adcb96aff1/artifacts
+end_time: 1752352830507
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: c93d971aa5114f98b7c2b3adcb96aff1
+run_name: sedate-duck-352
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352829725
+status: 3
+tags: []
+user_id: codespace

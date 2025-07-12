@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/df1d05fffa04487495bec49b2e9d139a/artifacts
+end_time: 1752352905910
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: df1d05fffa04487495bec49b2e9d139a
+run_name: optuna-hyperparameter-tuning
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352895934
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,44 @@
+artifact_path: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/models/m-9a10614ea2474331b7c320813346c02f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+is_signature_from_type_hint: false
+mlflow_version: 3.1.1
+model_id: m-9a10614ea2474331b7c320813346c02f
+model_size_bytes: 246705
+model_uuid: m-9a10614ea2474331b7c320813346c02f
+prompts: null
+run_id: 20692035bf5b439b93c6ce1b56bca195
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: values
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": 0, "required": true}, {"type": "double", "name":
+    1, "required": true}, {"type": "double", "name": 2, "required": true}, {"type":
+    "double", "name": 3, "required": true}, {"type": "double", "name": 4, "required":
+    true}, {"type": "double", "name": 5, "required": true}, {"type": "double", "name":
+    6, "required": true}, {"type": "double", "name": 7, "required": true}, {"type":
+    "double", "name": 8, "required": true}, {"type": "double", "name": 9, "required":
+    true}, {"type": "double", "name": 10, "required": true}, {"type": "double", "name":
+    11, "required": true}, {"type": "double", "name": 12, "required": true}, {"type":
+    "double", "name": 13, "required": true}, {"type": "double", "name": 14, "required":
+    true}, {"type": "double", "name": 15, "required": true}, {"type": "double", "name":
+    16, "required": true}, {"type": "double", "name": 17, "required": true}, {"type":
+    "double", "name": 18, "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-07-12 20:40:31.191103'

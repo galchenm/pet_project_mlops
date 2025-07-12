@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/4c60d116410347079f1fb9733db7b3de/artifacts
+end_time: 1752352902886
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 4c60d116410347079f1fb9733db7b3de
+run_name: intrigued-dove-382
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352902643
+status: 3
+tags: []
+user_id: codespace

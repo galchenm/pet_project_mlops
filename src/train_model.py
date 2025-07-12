@@ -69,7 +69,11 @@ def train_best_model(best_params):
 
     mlflow.log_artifact("../models/preprocessor.pkl", artifact_path="preprocessor")
 
+    # Save the trained model locally for serving
+    joblib.dump(model, "../models/model.joblib")
+
     print(f"Best model trained. Accuracy: {acc:.4f}, ROC AUC: {roc_auc:.4f}")
+    print("Model saved to models/model.joblib")
 
 def main():
     mlflow.set_experiment("stroke-prediction")

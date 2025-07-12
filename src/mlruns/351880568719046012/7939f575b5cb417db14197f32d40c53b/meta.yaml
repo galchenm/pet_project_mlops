@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/7939f575b5cb417db14197f32d40c53b/artifacts
+end_time: 1752352905481
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 7939f575b5cb417db14197f32d40c53b
+run_name: bright-midge-817
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352904763
+status: 3
+tags: []
+user_id: codespace
