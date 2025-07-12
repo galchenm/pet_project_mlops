@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/a8a3b7ff8d844c78a1002849779c7fac/artifacts
+end_time: 1752348883189
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: a8a3b7ff8d844c78a1002849779c7fac
+run_name: enchanting-newt-815
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752348882890
+status: 3
+tags: []
+user_id: codespace

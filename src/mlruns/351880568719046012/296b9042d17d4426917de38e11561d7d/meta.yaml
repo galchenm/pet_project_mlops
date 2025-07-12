@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/296b9042d17d4426917de38e11561d7d/artifacts
+end_time: 1752348882227
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 296b9042d17d4426917de38e11561d7d
+run_name: flawless-midge-63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752348881807
+status: 3
+tags: []
+user_id: codespace

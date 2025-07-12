@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/85702ce52a5b47609ab7c479fa71d88e/artifacts
+end_time: 1752348889075
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 85702ce52a5b47609ab7c479fa71d88e
+run_name: dashing-bass-345
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752348888196
+status: 3
+tags: []
+user_id: codespace

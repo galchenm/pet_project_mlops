@@ -9,6 +9,7 @@ from sklearn.pipeline import Pipeline
 import joblib
 
 def load_raw_data(path='../data/raw/healthcare-dataset-stroke-data.csv'):
+    print("Loading data...")
     df = pd.read_csv(path)
     df = df.drop(columns=['id'])  # Drop ID
     return df

@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/fc683458b4d44087a64be7f5ae71f350/artifacts
+end_time: 1752348882850
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: fc683458b4d44087a64be7f5ae71f350
+run_name: intrigued-koi-405
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752348882255
+status: 3
+tags: []
+user_id: codespace

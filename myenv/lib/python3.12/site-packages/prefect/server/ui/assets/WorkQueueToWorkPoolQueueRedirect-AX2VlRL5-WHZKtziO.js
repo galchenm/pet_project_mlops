@@ -1,0 +1,2 @@
+import{d as t,W as n,e as k,f as l,u as m,V as p}from"./index-ei-kaitd.js";const Q=t({__name:"WorkQueueToWorkPoolQueueRedirect",setup(c){const u=n("workQueueId"),s=k(),a=l(s.workQueues.getWorkQueue,[u]),o=m(),r=p();return a.promise().then(({response:e})=>{if(!e.workPoolName){o.replace(r.workPools());return}o.replace(r.workPoolQueue(e.workPoolName,e.name))}),()=>{}}});export{Q as default};
+//# sourceMappingURL=WorkQueueToWorkPoolQueueRedirect-AX2VlRL5-WHZKtziO.js.map

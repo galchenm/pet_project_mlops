@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/03605606ba2f44bd85b21bf2228e48d7/artifacts
+end_time: 1752348893445
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 03605606ba2f44bd85b21bf2228e48d7
+run_name: entertaining-swan-76
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752348892932
+status: 3
+tags: []
+user_id: codespace

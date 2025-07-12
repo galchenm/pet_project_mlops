@@ -1,0 +1,2 @@
+import{d as o,i as r,c,o as n,j as a,k as e,n as t,aP as _,aQ as f}from"./index-ei-kaitd.js";import{u as p}from"./usePageTitle-LeBMnqrg.js";const A=o({__name:"Artifacts",setup(u){return p("Artifacts"),(l,i)=>{const s=r("p-layout-default");return n(),c(s,{class:"artifacts"},{header:a(()=>[e(t(f))]),default:a(()=>[e(t(_))]),_:1})}}});export{A as default};
+//# sourceMappingURL=Artifacts-Dv3blXKR.js.map

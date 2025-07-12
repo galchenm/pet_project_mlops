@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/21157f3397844eb184cd9703ac5e5b42/artifacts
+end_time: 1752348889720
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 21157f3397844eb184cd9703ac5e5b42
+run_name: colorful-pug-629
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752348889128
+status: 3
+tags: []
+user_id: codespace

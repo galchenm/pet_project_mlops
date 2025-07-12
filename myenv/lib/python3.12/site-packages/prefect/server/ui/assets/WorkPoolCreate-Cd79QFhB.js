@@ -1,0 +1,2 @@
+import{d as r,i as s,c as n,o as l,j as e,k as o,n as a,d1 as u,d2 as _}from"./index-ei-kaitd.js";import{u as c}from"./usePageTitle-LeBMnqrg.js";const k=r({__name:"WorkPoolCreate",setup(p){return c("Create Work Pool"),(d,f)=>{const t=s("p-layout-default");return l(),n(t,null,{header:e(()=>[o(a(_))]),default:e(()=>[o(a(u))]),_:1})}}});export{k as default};
+//# sourceMappingURL=WorkPoolCreate-Cd79QFhB.js.map

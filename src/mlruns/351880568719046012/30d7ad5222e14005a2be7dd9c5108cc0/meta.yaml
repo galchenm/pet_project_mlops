@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/30d7ad5222e14005a2be7dd9c5108cc0/artifacts
+end_time: 1752348886805
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 30d7ad5222e14005a2be7dd9c5108cc0
+run_name: powerful-sheep-801
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752348885884
+status: 3
+tags: []
+user_id: codespace

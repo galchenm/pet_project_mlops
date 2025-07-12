@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/dc0bd251079245b586435fc96fa6527e/artifacts
+end_time: 1752348884463
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: dc0bd251079245b586435fc96fa6527e
+run_name: likeable-sloth-734
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752348884149
+status: 3
+tags: []
+user_id: codespace

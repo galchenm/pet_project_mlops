@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/6441c5d614b9410d8a1d47c57ae33499/artifacts
+end_time: 1752348885150
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 6441c5d614b9410d8a1d47c57ae33499
+run_name: funny-skunk-76
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752348884489
+status: 3
+tags: []
+user_id: codespace

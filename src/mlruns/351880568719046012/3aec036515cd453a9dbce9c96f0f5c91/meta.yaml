@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/3aec036515cd453a9dbce9c96f0f5c91/artifacts
+end_time: 1752348885858
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 3aec036515cd453a9dbce9c96f0f5c91
+run_name: intrigued-wolf-315
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752348885176
+status: 3
+tags: []
+user_id: codespace

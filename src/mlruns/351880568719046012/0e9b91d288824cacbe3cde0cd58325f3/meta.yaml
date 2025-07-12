@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/0e9b91d288824cacbe3cde0cd58325f3/artifacts
+end_time: 1752348887367
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 0e9b91d288824cacbe3cde0cd58325f3
+run_name: puzzled-mouse-404
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752348886831
+status: 3
+tags: []
+user_id: codespace

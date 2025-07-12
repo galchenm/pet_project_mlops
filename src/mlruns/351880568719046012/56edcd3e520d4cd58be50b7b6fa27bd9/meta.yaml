@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/56edcd3e520d4cd58be50b7b6fa27bd9/artifacts
+end_time: 1752348894279
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 56edcd3e520d4cd58be50b7b6fa27bd9
+run_name: amusing-turtle-254
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752348893484
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/4953aad9998c45c984f547b305d6b89b/artifacts
+end_time: 1752348892892
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 4953aad9998c45c984f547b305d6b89b
+run_name: blushing-shrew-659
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752348892187
+status: 3
+tags: []
+user_id: codespace

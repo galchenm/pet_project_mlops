@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/81e8b798d9da4df0b0da013fed24ec65/artifacts
+end_time: 1752348888157
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 81e8b798d9da4df0b0da013fed24ec65
+run_name: stylish-ray-347
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752348887407
+status: 3
+tags: []
+user_id: codespace
