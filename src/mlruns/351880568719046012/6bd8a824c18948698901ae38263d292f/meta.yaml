@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/6bd8a824c18948698901ae38263d292f/artifacts
+end_time: 1752351999878
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 6bd8a824c18948698901ae38263d292f
+run_name: gregarious-carp-108
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752351999540
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/df368119e82a4a6faf19ff0d9fd3725f/artifacts
+end_time: 1752352003420
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: df368119e82a4a6faf19ff0d9fd3725f
+run_name: worried-grouse-803
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352003268
+status: 3
+tags: []
+user_id: codespace

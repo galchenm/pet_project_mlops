@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/40fba5d6bc1642c6b0d6bcc2137c18bc/artifacts
+end_time: 1752352001899
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 40fba5d6bc1642c6b0d6bcc2137c18bc
+run_name: useful-turtle-696
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352001393
+status: 3
+tags: []
+user_id: codespace

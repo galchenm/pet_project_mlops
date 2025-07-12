@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/19d3f4058929421eacf426dd34b5bbd4/artifacts
+end_time: 1752352000500
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 19d3f4058929421eacf426dd34b5bbd4
+run_name: rumbling-turtle-718
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752351999904
+status: 3
+tags: []
+user_id: codespace

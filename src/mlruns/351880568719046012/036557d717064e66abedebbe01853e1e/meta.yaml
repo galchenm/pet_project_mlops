@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/036557d717064e66abedebbe01853e1e/artifacts
+end_time: 1752352003963
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 036557d717064e66abedebbe01853e1e
+run_name: dashing-crane-914
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352003653
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/043a948ee25f4a3c88d11b9378dd195b/artifacts
+end_time: 1752352000956
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 043a948ee25f4a3c88d11b9378dd195b
+run_name: lyrical-ram-245
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352000527
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/737e53fc58e64d2ab56a035ec2a4d258/artifacts
+end_time: 1752352009558
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 737e53fc58e64d2ab56a035ec2a4d258
+run_name: languid-flea-987
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352005488
+status: 3
+tags: []
+user_id: codespace

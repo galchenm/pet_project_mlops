@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/15cb8c1143f74bc5bf35b03b986582c3/artifacts
+end_time: 1752352002863
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 15cb8c1143f74bc5bf35b03b986582c3
+run_name: bittersweet-pig-455
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352002700
+status: 3
+tags: []
+user_id: codespace

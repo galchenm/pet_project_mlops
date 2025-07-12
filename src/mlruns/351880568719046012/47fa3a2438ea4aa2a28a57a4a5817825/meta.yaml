@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/pet_project_mlops/src/mlruns/351880568719046012/47fa3a2438ea4aa2a28a57a4a5817825/artifacts
+end_time: 1752352003047
+entry_point_name: ''
+experiment_id: '351880568719046012'
+lifecycle_stage: active
+run_id: 47fa3a2438ea4aa2a28a57a4a5817825
+run_name: receptive-rook-504
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752352002900
+status: 3
+tags: []
+user_id: codespace
