@@ -249,6 +249,194 @@ Expected response:
 }
 ```
 ---
+## 📊 Monitoring with Prometheus and Grafana
+
+This project includes basic monitoring for the FastAPI model server using **Prometheus** to collect metrics and **Grafana** to visualize them.
+
+---
+
+### ✅ Metrics Tracked
+
+* `request_count_total`: total number of requests received
+* `request_latency_seconds`: histogram of request durations
+
+These metrics are exposed from the FastAPI app on the `/metrics` endpoint.
+
+---
+
+### ⚙️ Setup Instructions
+
+We use **Docker containers** for Prometheus and Grafana, while the **FastAPI server runs on the host machine** using the `bridge` network.
+
+---
+
+### 1. Start FastAPI Server
+
+Run the FastAPI server locally on port `8000`:
+
+```bash
+uvicorn src.serve_model:app --host 0.0.0.0 --port 8000 --reload
+```
+
+This serves the API (including `/metrics`) at:
+
+```
+http://localhost:8000
+```
+
+---
+
+### 2. Prometheus Configuration
+
+#### prometheus.yml
+
+```yaml
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: 'stroke-predictor'
+    static_configs:
+      - targets: ['host.docker.internal:8000']  # Use this on Mac/Windows
+
+# On Linux, use your host's actual IP address instead:
+# targets: ['172.17.0.1:8000']  # Replace with output of `ip addr show docker0`
+```
+
+#### Run Prometheus Container
+
+If a container named `prometheus` already exists, remove it:
+
+```bash
+docker rm -f prometheus
+```
+
+Then start Prometheus:
+
+```bash
+docker run -d \
+  --name prometheus \
+  -p 9090:9090 \
+  -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml \
+  prom/prometheus
+```
+
+---
+
+### 3. Run Grafana Container
+
+```bash
+docker run -d \
+  --name grafana \
+  -p 3000:3000 \
+  grafana/grafana
+```
+
+* Access Grafana at: [http://localhost:3000](http://localhost:3000)
+* Default login: `admin` / `admin`
+
+---
+
+### 4. Add Prometheus Data Source to Grafana
+
+1. Go to **Grafana → Settings → Data Sources → Add Data Source**
+
+2. Select **Prometheus**
+
+3. Set the URL to:
+
+   ```
+   http://host.docker.internal:9090
+   ```
+
+   > On **Linux**, use your host IP (e.g. `http://172.17.0.1:9090`)
+
+4. Click **Save & Test**
+
+---
+
+### 🧪 Test It Out
+
+Send a few POST requests to `/predict`:
+
+```bash
+curl -X POST http://localhost:8000/predict \
+  -H "Content-Type: application/json" \
+  -d '{
+    "age": 67,
+    "avg_glucose_level": 228.69,
+    "bmi": 36.6,
+    "gender": "Male",
+    "ever_married": "Yes",
+    "work_type": "Private",
+    "Residence_type": "Urban",
+    "smoking_status": "formerly smoked"
+  }'
+```
+
+---
+
+### 📈 View Metrics in Grafana
+
+Go to **Explore** and try these queries:
+
+* `request_count_total`
+* `rate(request_count_total[1m])`
+* `histogram_quantile(0.95, rate(request_latency_seconds_bucket[1m]))`
+
+---
+
+## Testing, Code Quality, and Automation
+
+### Pytest
+
+We use **pytest** for automated testing. Tests are located in the `tests/` directory.
+To run all tests:
+
+```bash
+pytest tests
+```
+
+This ensures code correctness and helps catch bugs early.
+
+---
+
+### Makefile
+
+A `Makefile` is provided for common project tasks. Use the following commands:
+
+| Command             | Description                                    |
+| ------------------- | ---------------------------------------------- |
+| `make install`      | Installs required Python packages.             |
+| `make lint`         | Runs `flake8` linter on source code and tests. |
+| `make format`       | Formats code using `black`.                    |
+| `make test`         | Runs all tests with `pytest`.                  |
+| `make serve`        | Starts the FastAPI model server.               |
+| `make docker-build` | Builds the Docker image.                       |
+| `make docker-run`   | Runs the Docker container.                     |
+
+This standardizes workflows and simplifies common operations.
+
+---
+
+### Pre-commit Hooks
+
+We use **pre-commit** hooks to maintain code quality by automatically running linters and formatters before every commit. This helps catch and fix style issues early.
+
+To set up the hooks locally:
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+Hooks run automatically on staged files when you commit. To run them on all files once, use:
+
+```bash
+pre-commit run --all-files
+```
+
+---
 ## 📁 Project Structure
 
 ```

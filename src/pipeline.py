@@ -8,6 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, roc_auc_score
 from mlflow.models.signature import infer_signature
 
+
 @task
 def tune_model(n_trials: int = 20):
     def objective(trial):
@@ -33,6 +34,7 @@ def tune_model(n_trials: int = 20):
     best = study.best_trial
     return {"best_score": best.value, "best_params": best.params}
 
+
 @task
 def train_and_log(best_params: dict):
     logger = get_run_logger()
@@ -51,12 +53,14 @@ def train_and_log(best_params: dict):
 
     input_example = pd.DataFrame(X_test).head(5)
     signature = infer_signature(input_example, model.predict(input_example))
-    mlflow.sklearn.log_model(model, artifact_path="model",
-                             signature=signature, input_example=input_example)
+    mlflow.sklearn.log_model(
+        model, artifact_path="model", signature=signature, input_example=input_example
+    )
     mlflow.log_artifact("../models/preprocessor.pkl", artifact_path="preprocessor")
 
     logger.info(f"Model trained: accuracy={acc:.4f}, roc_auc={roc_auc:.4f}")
     return acc, roc_auc
+
 
 @flow
 def stroke_pipeline(n_trials: int = 20):
@@ -66,6 +70,7 @@ def stroke_pipeline(n_trials: int = 20):
     score = tuning["best_score"]
     acc, roc_auc = train_and_log(best_params)
     return {"tuning_score": score, "test_accuracy": acc, "test_roc_auc": roc_auc}
+
 
 if __name__ == "__main__":
     result = stroke_pipeline()

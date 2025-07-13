@@ -8,41 +8,50 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 import joblib
 
-def load_raw_data(path='../data/raw/healthcare-dataset-stroke-data.csv'):
+
+def load_raw_data(path="../data/raw/healthcare-dataset-stroke-data.csv"):
     print("Loading data...")
     df = pd.read_csv(path)
-    df = df.drop(columns=['id'])  # Drop ID
+    df = df.drop(columns=["id"])  # Drop ID
     return df
 
+
 def preprocess_and_split(df):
-    target = 'stroke'
+    target = "stroke"
     X = df.drop(columns=[target])
     y = df[target]
 
     # Define columns
-    numeric_features = ['age', 'avg_glucose_level', 'bmi']
-    categorical_features = ['gender', 'ever_married', 'work_type', 'Residence_type', 'smoking_status']
+    numeric_features = ["age", "avg_glucose_level", "bmi"]
+    categorical_features = [
+        "gender",
+        "ever_married",
+        "work_type",
+        "Residence_type",
+        "smoking_status",
+    ]
 
     # Pipelines
-    numeric_pipeline = Pipeline([
-        ('imputer', SimpleImputer(strategy='median')),
-        ('scaler', StandardScaler())
-    ])
+    numeric_pipeline = Pipeline(
+        [("imputer", SimpleImputer(strategy="median")), ("scaler", StandardScaler())]
+    )
 
-    categorical_pipeline = Pipeline([
-        ('encoder', OneHotEncoder(handle_unknown='ignore'))
-    ])
+    categorical_pipeline = Pipeline(
+        [("encoder", OneHotEncoder(handle_unknown="ignore"))]
+    )
 
-    preprocessor = ColumnTransformer([
-        ('num', numeric_pipeline, numeric_features),
-        ('cat', categorical_pipeline, categorical_features)
-    ])
+    preprocessor = ColumnTransformer(
+        [
+            ("num", numeric_pipeline, numeric_features),
+            ("cat", categorical_pipeline, categorical_features),
+        ]
+    )
 
     # Fit/transform the data
     X_processed = preprocessor.fit_transform(X)
 
     # Save the transformer
-    joblib.dump(preprocessor, '../models/preprocessor.pkl')
+    joblib.dump(preprocessor, "../models/preprocessor.pkl")
 
     # Train/test split
     X_train, X_test, y_train, y_test = train_test_split(
@@ -50,6 +59,7 @@ def preprocess_and_split(df):
     )
 
     return X_train, X_test, y_train, y_test
+
 
 if __name__ == "__main__":
     df = load_raw_data()
