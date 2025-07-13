@@ -96,6 +96,58 @@ After tuning, we retrain the best model on the full training set. Metrics logged
 
 ---
 
+#### 📦 Installation
+
+> *(Insert this near the top, right before or after the "Dataset" or "Tools & Libraries" section)*
+
+### 📦 Installation
+
+1. **Create a virtual environment**
+
+```bash
+python -m venv myenv
+source myenv/bin/activate  # On Windows: myenv\Scripts\activate
+```
+
+2. **Install dependencies**
+
+```bash
+make install
+```
+
+3. **Set up pre-commit hooks**
+
+```bash
+pre-commit install
+```
+
+Now you're ready to run the pipeline, serve the model, or test the API.
+
+---
+
+#### 🧪 Testing, Code Quality, and Automation
+
+> *(Append this at the end of the section that includes pre-commit and CI)*
+
+### 🗂️ `.gitignore` Setup
+
+The project uses a `.gitignore` file to prevent committing unnecessary or sensitive files such as:
+
+* Python cache files (`__pycache__/`, `.pyc`)
+* Virtual environment directories
+* `models/` directory with trained artifacts
+* `.env` or local config files (if any)
+
+If you’ve added `.gitignore` **after** your initial commits, apply it retroactively like this:
+
+```bash
+git rm -r --cached .
+git add .
+git commit -m "Apply .gitignore rules to existing files"
+```
+
+---
+
 ## ⚙️ Workflow Orchestration with Prefect
 
 We use **Prefect** to orchestrate and manage our ML workflows, providing:
@@ -435,6 +487,13 @@ Hooks run automatically on staged files when you commit. To run them on all file
 ```bash
 pre-commit run --all-files
 ```
+---
+### Continuous Integration (CI)
+
+We use **GitHub Actions** to automate linting and testing on every push and pull request.  
+The workflow installs dependencies, runs `flake8` to check code style, and executes `pytest` for automated tests.
+
+This ensures code quality and helps prevent regressions by validating code before merging.
 
 ---
 ## 📁 Project Structure
