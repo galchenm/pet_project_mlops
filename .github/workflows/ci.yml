@@ -16,4 +16,5 @@ jobs:
       - name: Run lint
         run: flake8 src tests
       - name: Run tests
-        run: pytest tests
+        run: PYTHONPATH=. pytest
+
